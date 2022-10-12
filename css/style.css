@@ -1,7 +1,7 @@
 body {
-background-color: var(--primary-white-color);
-color: var(--primary-text-color);
-font-family: "Roboto", "Raleway", "Oleo Script", sans-serif; 
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: "Roboto", "Raleway", "Oleo Script", sans-serif; 
 }
 
 h1,
@@ -12,18 +12,18 @@ h5,
 h6,
 p,
 ul {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 img {
-display: block;
-max-width: 100%;
-height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list{
-list-style: none;  
+    list-style: none;  
 }
 
 /* колір основного тексту #212121 */
@@ -161,7 +161,7 @@ color: var(--accent-color);
     background-image: url(../images/imgfon1.jpg),
             url(../images/imgfon2.jpg);
         background-size: 1600px, 1600px;
-        background-position: center, center;
+        background-position: center;
         background-repeat: no-repeat;
 }
 
