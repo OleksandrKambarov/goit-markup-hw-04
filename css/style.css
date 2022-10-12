@@ -1,7 +1,7 @@
 body {
-   background-color: var(--primary-white-color);
-   color: var(--primary-text-color);
-   font-family: "Roboto", "Raleway", "Oleo Script", sans-serif; 
+background-color: var(--primary-white-color);
+color: var(--primary-text-color);
+font-family: "Roboto", "Raleway", "Oleo Script", sans-serif; 
 }
 
 h1,
@@ -12,18 +12,18 @@ h5,
 h6,
 p,
 ul {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+display: block;
+max-width: 100%;
+height: auto;
 }
 
 .list{
-   list-style: none;  
+list-style: none;  
 }
 
 /* колір основного тексту #212121 */
@@ -91,9 +91,9 @@ header {
 .logo-text {
     display: inline-block;
     color: var(--accent-color);
-       }
+}
 
-          
+    
 /* site-nav */
 .link {
     display: block;
@@ -148,7 +148,7 @@ header {
 }
 .contacts .link-contacts:hover,
 .contacts .link-contacts:focus {
-     color: var(--accent-color);  
+color: var(--accent-color);  
 }
 
 
@@ -157,13 +157,18 @@ header {
     background-color: var(--section-fon-color);
     text-align: center;
     padding: 200px 0;
-        }
+
+    background-image: url(../images/imgfon1.jpg),
+            url(../images/imgfon2.jpg);
+        background-size: 1600px, 1600px;
+        background-position: center, center;
+        background-repeat: no-repeat;
+}
 
 .hero-title{
     margin-bottom: 30px;
     margin-left: 215px;
     margin-right: 215px;
-
 
     color: var(--primary-white-color);
     font-weight: 900;
@@ -171,7 +176,6 @@ header {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
 }
 .button  {
     padding: 10px 32px; 
@@ -185,8 +189,7 @@ header {
     line-height: 1.875;
     letter-spacing: 0.06em;
     cursor: pointer;
-  
-  }
+}
 
 .button:hover,      
 .button:focus {
@@ -194,19 +197,20 @@ header {
 }
 
 
+
 /* section */
 .visually-hidden {
-      position: absolute;
-      white-space: nowrap;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      border: 0;
-      padding: 0;
-      clip: rect(0 0 0 0);
-      clip-path: inset(50%);
-      margin: -1px;
-  }
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 /* features */
 .features-title {
     margin-bottom: 10px;
@@ -267,7 +271,7 @@ max-width: 270px;
     letter-spacing: 0.03em;
     text-align: center;
     
- }
+}
 
 .team {
     font-weight: 700;
@@ -289,7 +293,7 @@ max-width: 270px;
 
 .card {
     padding: 30px;
-        }
+}
 
 .title {
     margin-bottom: 10px;
@@ -316,9 +320,9 @@ max-width: 270px;
 
 /* footer */
 .footer {
-   background-color: var(--section-fon-color);
-   margin: 0;
-   padding: 60px 0px;
+background-color: var(--section-fon-color);
+margin: 0;
+padding: 60px 0px;
 }
 
 .logo-footer {
@@ -329,7 +333,7 @@ max-width: 270px;
     line-height: 1.192;
     text-decoration: none;
     letter-spacing: 0.03em;
-       }
+}
 
 .logo-web {
     margin-bottom: 20px;
@@ -338,13 +342,13 @@ max-width: 270px;
 }
 
 .link-adress {
-   color: var(--primary-white-color);
-   font-style: normal;
-   font-size: 14px;
-   line-height: 1.714;
-   text-decoration: none;
-   letter-spacing: 0.03em;
-   margin-bottom: 9px;
+color: var(--primary-white-color);
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+text-decoration: none;
+letter-spacing: 0.03em;
+margin-bottom: 9px;
 }
 
 .link-items .link-name:not(:last-child) {
@@ -357,14 +361,14 @@ max-width: 270px;
 }  
 
 .link-item {
-  color: var(--footer-text-color);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-  margin-bottom: 9px;
-    }
+color: var(--footer-text-color);
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+text-decoration: none;
+letter-spacing: 0.03em;
+margin-bottom: 9px;
+}
 
 .link-items .link-item:hover,
 .link-items .link-item:focus {
@@ -397,16 +401,17 @@ max-width: 270px;
 .filter .filter-button:hover,
 .filter .filter-button:focus {
     background-color: var(--accent-color);
- }
+}
+
  /* products */
- .product-title {
+.product-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
- }
- 
+}
+
 .product {
     font-size: 16px;
     line-height: 1.875;
@@ -437,7 +442,6 @@ max-width: 270px;
 padding: 20px 24px;
 border: 1px solid #EEE;
 border-top: 0;
-
-
 }
- 
+
+
