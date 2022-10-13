@@ -260,26 +260,19 @@ header {
 
 .features-list {
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--secondary-fon-color);
+    border-radius: 4px;
     margin-bottom: 30px;
 }
 
-.features-item {
-    width: 270px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    }
-
-
     .features-icon {
-        display: flex;
-        align-items: center;
-    justify-content: center;
+        
+    
+    
 }
 
 /* work */
@@ -308,7 +301,7 @@ header {
 }
 
 .team {
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 36px;
     line-height: 1.166;
     letter-spacing: 0.03em;
