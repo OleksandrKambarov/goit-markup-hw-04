@@ -154,6 +154,10 @@ header {
     color: var(--accent-color);  
 }
 
+.contact-name {
+    margin-right: 10px;
+}
+
 
 /* hero */
 .hero {
@@ -217,6 +221,7 @@ header {
     clip-path: inset(50%);
     margin: -1px;
 }
+
 /* features */
 .features-title {
     margin-bottom: 10px;
@@ -253,6 +258,29 @@ header {
     letter-spacing: 0.03em;
 }
 
+.features-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.features-item {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    }
+
+
+    .features-icon {
+        display: flex;
+        align-items: center;
+    justify-content: center;
+}
 
 /* work */
 .section-work {
@@ -332,6 +360,7 @@ header {
     .social-item {
     
     }
+
     .social-linK {
     width: 44px;
     height: 44px;
