@@ -455,16 +455,19 @@ padding: 60px 0px;
     color: var(--accent-color);
 }
 
-.social-footer {
+.footer-container {
+    display: flex;
     align-items: baseline;
+    } 
+
+.container-adress {
+    margin-right: 70px;
+}
+
+.social-footer {
+    
 }
 .footer-title {
-    position: absolute;
-    width: 116px;
-    height: 16px;
-    left: 516px;
-    top: 2748px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14px;
