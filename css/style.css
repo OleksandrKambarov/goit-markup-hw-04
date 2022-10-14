@@ -430,6 +430,9 @@ padding: 60px 0px;
 
 .link-items .link-name:not(:last-child) {
     margin-bottom: 9px;
+    }
+
+    .container-adress {
 }
 
 .link-items .link-adress:hover,
@@ -453,9 +456,15 @@ padding: 60px 0px;
 }
 
 .social-footer {
-
+    align-items: baseline;
 }
 .footer-title {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    left: 516px;
+    top: 2748px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14px;
@@ -466,21 +475,24 @@ padding: 60px 0px;
     color: var(--primary-white-color);
 }
 .social-footer-list {
-    
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #2F303A;
+    justify-content: center; 
+    
     gap: 10px;
 }
 .social-footer-item {
-}
-
-.social-footer-link {
+    background-color: #2F303A;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     
+}
+
+.social-footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 .social-footer-icon {
 }
