@@ -130,6 +130,7 @@ header {
 
 .contacts {
     display: flex;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -450,7 +451,40 @@ padding: 60px 0px;
 .link-items .link-item:focus {
     color: var(--accent-color);
 }
+
+.social-footer {
+
+}
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    color: var(--primary-white-color);
+}
+.social-footer-list {
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2F303A;
+    gap: 10px;
+}
+.social-footer-item {
+}
+
+.social-footer-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    
+}
+.social-footer-icon {
+}
+
 /* portfolio */
 .filter {
     display: flex;
