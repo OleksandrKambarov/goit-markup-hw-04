@@ -481,11 +481,14 @@ padding: 60px 0px;
     display: flex;
     align-items: center;
     justify-content: center; 
-    
     gap: 10px;
+    
 }
 .social-footer-item {
-    background-color: #2F303A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
     border-radius: 50%;
