@@ -496,9 +496,7 @@ padding: 60px 0px;
 }
 
 .social-footer-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+
 }
 .social-footer-icon {
 }
@@ -539,6 +537,11 @@ padding: 60px 0px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
+}
+
+.products-link {
+    text-decoration: none;
+    
 }
 
 .product {
