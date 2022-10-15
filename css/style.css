@@ -150,15 +150,15 @@ header {
     text-decoration: none;
     letter-spacing: 0.02em;
 }
-.contacts .link-contacts:hover,
-.contacts .link-contacts:focus {
+.contact .link-contacts:hover,
+.contact .link-contacts:focus {
     color: var(--accent-color);  
 }
 
 .contact-name {
     margin-right: 10px;
+    fill: currentColor;
 }
-
 
 /* hero */
 .hero {
@@ -346,23 +346,35 @@ header {
     border-radius: 0px 0px 4px 4px;
     }
 
-    .social-list {
+.social-list {
     display: flex;
     justify-content: center;
     gap: 10px;
     }
-    .social-item {
+
+.social-item {
     
     }
 
-    .social-linK {
+.social-link {
     width: 44px;
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    }
+    color: #AFB1B8;
+        }
+
+.social-icon {
+    fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
 
 /* clients */
 
@@ -382,18 +394,30 @@ header {
 }
 
 .clients-item {
+    
+}
+
+.clients-link {
     width: 170px;
     height: 92px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    color: #AFB1B8;
     border: 1px solid #AFB1B8;
 }
 
-.clients-link {
-    
-    }
+.clients-icon {
+    fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
 
 /* footer */
 .footer {
@@ -432,8 +456,7 @@ padding: 60px 0px;
     margin-bottom: 9px;
     }
 
-    .container-adress {
-}
+
 
 .link-items .link-adress:hover,
 .link-items .link-adress:focus {
@@ -484,7 +507,7 @@ padding: 60px 0px;
     gap: 10px;
     
 }
-.social-footer-item {
+.social-footer-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -492,13 +515,16 @@ padding: 60px 0px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: var(--primary-white-color);
     
 }
 
-.social-footer-link {
-
+.social-footer-link:hover,
+.social-footer-link:focus {
+    background-color: var(--accent-color);
 }
 .social-footer-icon {
+    fill: currentColor;
 }
 
 /* portfolio */
